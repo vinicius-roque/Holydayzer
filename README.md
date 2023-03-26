@@ -1,18 +1,7 @@
-## Getting Started
+## Code details
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+- Has a separate class to work with the holidays;
 
-## Folder Structure
+- It has a function that receives a string parameter that is the date of the holiday! If it does not exist, it displays a message saying that there is no holiday with that data, if it exists, search the list of holidays for the holiday with the date and print a message informing which holiday it refers to;
 
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+- It has a function that returns the list with all the holidays.
